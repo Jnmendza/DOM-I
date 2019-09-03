@@ -64,11 +64,11 @@ const navBar = document.querySelector('header nav');
 
 const blogLink = document.createElement('a')
 blogLink.textContent = 'Blog'
-navBar.appendChild(blogLink)
+navBar.appendChild(blogLink).style.color = 'green'
 
 const testLink = document.createElement('a')
 testLink.textContent = 'Testimonials'
-navBar.appendChild(testLink)
+navBar.appendChild(testLink).style.color = 'green'
 
 
 // CTA
