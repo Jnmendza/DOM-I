@@ -88,7 +88,10 @@ mainImg.setAttribute('src', 'img/header-img.png')
 //TOP CONTENT FEATURES AND ABOUT
 const topContentH4 = document.querySelectorAll('.top-content .text-content h4')
 topContentH4[0].textContent = 'Features'
+topContentH4[0].style.color = 'blue'
 topContentH4[1].textContent = 'About'
+topContentH4[1].style.color = 'blue'
+
 
 const topContentP = document.querySelectorAll('.top-content .text-content p')
 topContentP[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
@@ -100,8 +103,11 @@ middleImg.setAttribute('src', 'img/mid-page-accent.jpg')
 //BOTTOM CONTENT SERVICES, PRODUCT AND VISION
 const bottomContentH4 = document.querySelectorAll('.bottom-content .text-content h4')
 bottomContentH4[0].textContent = 'Services'
+bottomContentH4[0].style.color = 'blue'
 bottomContentH4[1].textContent = 'Product'
+bottomContentH4[1].style.color = 'blue'
 bottomContentH4[2].textContent = 'Vision'
+bottomContentH4[2].style.color = 'blue'
 
 bottomContentP = document.querySelectorAll('.bottom-content .text-content p')
 bottomContentP[0].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
