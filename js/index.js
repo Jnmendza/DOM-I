@@ -47,11 +47,29 @@ const nl = document.querySelectorAll('a');
 const arr = Array.from(nl);
 
 arr[0].textContent = 'Services'
+arr[0].style.color = 'green'
 arr[1].textContent = 'Product'
+arr[1].style.color = 'green'
 arr[2].textContent = 'Vision'
+arr[2].style.color = 'green'
 arr[3].textContent = 'Features'
+arr[3].style.color = 'green'
 arr[4].textContent = 'About'
+arr[4].style.color = 'green'
 arr[5].textContent = 'Contact'
+arr[5].style.color = 'green'
+
+// ADDING TWO NEW LINKS TO NAV BAR
+const navBar = document.querySelector('header nav');
+
+const blogLink = document.createElement('a')
+blogLink.textContent = 'Blog'
+navBar.appendChild(blogLink)
+
+const testLink = document.createElement('a')
+testLink.textContent = 'Testimonials'
+navBar.appendChild(testLink)
+
 
 // CTA
 const title = document.querySelector('.cta .cta-text h1')
